@@ -289,11 +289,12 @@ a:hover{
 }
 
 .fn__banner h2 {
-	position: relative;
-    color: #fff;
+    position: relative;
+    color: #43434359;
     font-family: "Open Sans Condensed", Sans-serif;
     font-size: 4rem;
-	z-index: 999;
+    z-index: 999;
+    font-weight: 700;
 }
 
 
