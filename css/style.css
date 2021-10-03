@@ -1,5 +1,6 @@
 body{
 	background: #fff;
+	font-family: "Lato", Sans-serif;
 }
 a{
 	color: #f26c4f;
@@ -7,6 +8,10 @@ a{
 	color: inherit;
     -webkit-transition: color 0.2s ease;
     transition: color 0.2s ease;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Open Sans Condensed", Sans-serif;
 }
 a:hover{
 	
@@ -87,27 +92,29 @@ a:hover{
     position: relative;
 }
 .mainmenu li a{
-	padding-top: 1.5rem!important;
+    padding-top: 1.5rem!important;
     padding-bottom: 1.5rem!important;
     padding-right: 1.2rem!important;
     padding-left: 1.2rem!important;
     border-bottom: none;
     display: block;
     color: #ffffff!important;
-    font-weight: bold;
-	transition: .3s ease;
-    font-size: 0.875rem;
+    transition: .3s ease;
+    font-size: 0.9545rem;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    letter-spacing: 0.0254465rem;
 }
 
 .mainmenu li:hover > a, .mainmenu > li > a:hover, .mainmenu > li > a.active {
-    background-color: rgb(242, 108, 79);
+    background-color: rgb(4 4 4);
 	opacity: 1;
 }
 .mainmenu li a.active:before, .mainmenu li a.active:after {
     opacity: 1;
 }
 .mainmenu > li > a:before {
-    border-color: #f26c4f transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
 }
 .mainmenu > li > a:before {
     border-style: solid;
@@ -121,11 +128,11 @@ a:hover{
     opacity: 0;
 }
 .mainmenu > li > a:after {
-    border-bottom-color: #f26c4f;
+    border-bottom-color: #ffffff;
 }
 .mainmenu > li > a:after {
     border-bottom: .1875rem solid;
-	border-bottom-color: #f26c4f;
+	border-bottom-color: #ffffff;
     content: "";
     height: .1875rem;
     position: absolute;
@@ -141,7 +148,7 @@ a:hover{
 	color:#eaeaea!important;
 }
 .navbar {
-	background: #262626;
+	background: #43434359;
     font-size: .875rem;
     font-weight: 500;
     transition: .3s ease;
@@ -180,7 +187,7 @@ a:hover{
 }
 
 .fn-bubble-border i {
-    background-color: #fff;
+    background-color: #ffffff;
     position: absolute;
     transition: .2s ease-in;
 }
@@ -233,7 +240,7 @@ a:hover{
 .fn-bubble-border i:nth-child(5):after {
     border-style: solid;
     border-width: 1.625rem 1.625rem 0 0;
-    border-color: #fff  transparent transparent transparent;
+    border-color: #ffffff  transparent transparent transparent;
     content: "";
     position: absolute;
 }
@@ -242,7 +249,7 @@ a:hover{
     left: 0;
     position: absolute;
     top: 0;
-	color: #fff;
+	color: #ffffff;
 }
 
 .fn-bubble-border .fn-title-rotate span {
@@ -284,19 +291,26 @@ a:hover{
 }
 
 .form-control:focus {
-    border-color: #f26c4f;
+    border-color: #7c7c7c;
 	box-shadow: none;
 }
 
 .fn__banner h2 {
     position: relative;
     color: #43434359;
-    font-family: "Open Sans Condensed", Sans-serif;
     font-size: 4rem;
     z-index: 999;
     font-weight: 700;
 }
 
+.fn-item-body a {
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .015156rem;
+    color: #040404;
+}
 
 .fn-btn-effect {
     display: inline-block;
@@ -327,8 +341,8 @@ a:hover{
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #f26c4f;
-    border-color: #f26c4f;
+    background-color: #ffffff;
+    border-color: #ffffff;
     box-shadow: none;
 }
 .fn-btn-effect .fn-visible {
@@ -358,7 +372,7 @@ a:hover{
 
 .fn-bg-primary {
 	background: transparent;
-    border: 3px solid #fff;
+    border: 3px solid #e9ecef;
 }
 
 .fn-bottom__0 {
@@ -370,7 +384,8 @@ a:hover{
 }
 
 .fn-progress-title {
-    color: #545454;
+	color: #7c7c7c;
+    font-weight: 700;
 }
 
 .portfolio{
@@ -385,12 +400,12 @@ a:hover{
 	padding: 100px 0px 0px 0px;
 }
 .fn_heading-title{
-	font-family: "Rubik", Sans-serif;
-    font-size: 2.25rem;
-	color: #262626;
-    font-weight: 500;
+	font-family: 'Open Sans Condensed';
+    font-size: 2rem;
+    color: #262626;
+    font-weight: 700;
     text-transform: uppercase;
-	text-align:center;
+    text-align: center;
     line-height: 1.5em;
     letter-spacing: 0.015px;
 }
@@ -403,7 +418,7 @@ a:hover{
     margin-bottom: 30px;
 }
 .fn__divider:before, .fn__divider:after {
-    background: #f26c4f;
+    background: #818181;
 }
 .fn__divider:before {
     content: "";
@@ -438,33 +453,40 @@ a:hover{
     transform: rotate(-45deg);
 }
 .fn__divider span:nth-child(1), .fn__divider span:nth-child(2) {
-    border-right-color: #262626;
+    border-right-color: #040404;
 }
 .fn__intro{
-    padding: 1.5rem 2.25rem;
-	color:#f26c4f;
+	padding: 0.4rem 1.2rem;
+    color: #7c7c7c;
+    font-size: 2rem;
 }
 .about-me-description p{
-    color: #545454;
-    font-size: 1rem;
-    line-height: 1.6875rem;
+    color: #7c7c7c;
+    font-size: 0.895645455rem;
+    line-height: 1.4rem;
     margin-bottom: 1.875rem;
     margin-top: 1.875rem;
+    font-family: 'Lato', sans-serif;
 }
 .fn-column-count-2 {
     column-count: 2;
 }
 .info-block {
-    background: #262626;
+    background: #040404;
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 13px;
     font-size: 1rem;
 }
 .info-block dt {
-    color: #f26c4f;
+    color: #818181;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 .info-block dd {
-    color: #ffffff;
+	color: #e9ecef;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    letter-spacing: 0.02rem;
 }
 
 .fn-btn-effect:hover .fn-hidden {
@@ -481,8 +503,8 @@ a:hover{
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-	background-color: #f26c4f!important;
-    border-color: #f26c4f!important;
+	background-color: #040404!important;
+    border-color: #040404!important;
 }
 .fn-btn-effect {
     display: inline-block;
@@ -502,18 +524,18 @@ a:hover{
 }
 .btn-outline-light:hover {
     color: #ffffff;
-    background-color: #f26c4f;
-    border-color: #f26c4f;
+    background-color: #040404;
+    border-color: #040404;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #f26c4f;
-    border-color: #f26c4f;
+    background-color: rgb(4 4 4);
+    border-color: rgb(4 4 4);
     box-shadow: none;
 }
 .fn-btn-effect .fn-hidden {
     position: absolute;
 	background: transparent;
-    border: 3px solid #f26c4f;
+    border: 3px solid rgb(4 4 4);
     top: 0;
     left: 0;
     transform: translateX(-100%);
@@ -521,27 +543,29 @@ a:hover{
 }
 
 .btn {
-    border-radius: 0;
+	border-radius: 0;
     color: #ffffff;
-    background-color: #262626;
+    background-color: #7c7c7c;
     background-image: none;
-    border-color: #262626;
+    border-color: #7c7c7c;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 700;
     font-size: .875rem;
     padding: .75rem 1.25rem;
     position: relative;
     outline: none !important;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    font-family: 'Open Sans Condensed';
+    letter-spacing: 0.02rem;
 }
 .fn-has-talk-arrow:hover:after {
     border-style: solid;
     border-width: .625rem .625rem 0 0;
-    border-color: #f26c4f transparent transparent transparent;
+    border-color: #040404  transparent transparent transparent;
 }
 
 .fn__avatar{
-    outline: 1rem solid #f26c4f7a;
+	outline: 1rem solid #43434359;
     outline-offset: -2rem;
 }
 
@@ -566,9 +590,9 @@ a:hover{
 }
 
 .progress .fn-progress-value {
-    border: .125rem solid #262626;
+	border: .125rem solid #040404;
     bottom: 0;
-	color: #545454;
+    color: #040404;
     padding: .125rem .375rem;
     position: absolute;
     left: 0%;
@@ -584,17 +608,25 @@ a:hover{
     position: absolute;
 }
 .progress .progress-bar {
-    background-color: #f26c4f;
+    background-color: #040404;
     bottom: 0;
     height: .1875rem;
     position: absolute;
     width: 0%;
 }
 .skills h4{
-	color:#262626;
+	font-family: 'Open Sans Condensed';
+    font-size: 2rem;
+    color: #262626;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing: 0.015px;
 }
 .skills p{
-    color: #545454;
+	color: #a0a0a0;
+    font-family: 'Open Sans Condensed';
 }
 .fn-item-content {
     display: flex;
@@ -610,24 +642,26 @@ a:hover{
     display: inline-block;
     font-size: .75rem;
     text-transform: uppercase;
-    font-weight: 700;
     color: #fff;
     position: relative;
     padding-right: 2rem;
 }
 .fn-link-arrow-effect span {
-    position: relative;
+	position: relative;
     transform: translateX(-200%);
     display: inline-block;
     transition: .6s cubic-bezier(.6, .01, 0, 1);
-	color: #545454;
+    color: #7c7c7c;
+    font-family: 'Lato';
+    font-size: 10px;
+    letter-spacing: .015156rem;
 }
 .fn-link-arrow-effect:before {
     animation: fn-link-arrow-effect-animation-out;
     animation-fill-mode: forwards;
     animation-duration: .4s;
     animation-timing-function: cubic-bezier(.6, .01, 0, 1);
-    background-color: #f26c4f;
+    background-color: #7c7c7c;
     bottom: 0;
     height: .125rem;
     margin: auto;
@@ -641,7 +675,7 @@ a:hover{
     z-index: 5;
 }
 .fn__dark{
-	color: #545454;
+	color: #040404;
 }
 .fn-has-talk-arrow:hover 
 .fn-item h4 {
@@ -704,7 +738,7 @@ a:hover{
 .fn-has-talk-arrow:after {
     border-style: solid;
     border-width: .625rem .625rem 0 0;
-    border-color: #262626 transparent transparent transparent;
+    border-color: #7c7c7c transparent transparent transparent;
     bottom: -0.625rem;
     content: "";
     left: 1rem;
@@ -732,7 +766,7 @@ a:hover{
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #f26c4f;
+    background: #040404;
     color: #fff;
     cursor: pointer;
     border: 0;
@@ -742,23 +776,39 @@ a:hover{
     opacity: 0;
 }
 .copyright {
-    background: #f26c4f;
+    background: #040404;
     padding: 1rem 0px;
 }
 
 footer .copyright h6{
-    text-align: center;
+	text-align: center;
     font-size: 0.855221455rem;
     margin: 12px 0 0 0;
     color: #fff;
     letter-spacing: 1px;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
 }
 
 .expriance ul{
-    padding-left: 20px;
+	color: #7c7c7c;
+    font-size: 0.895645455rem;
+    line-height: 1.4rem;
     margin-bottom: 3rem;
-    color: #545454;
-	line-height: 28px;
+    margin-top: 1.875rem;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+}
+
+.send-title{
+	font-family: 'Open Sans Condensed';
+    font-size: 2rem;
+    color: #262626;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing: 0.015px;
 }
 
 .fn__control{
@@ -770,7 +820,7 @@ footer .copyright h6{
 	font: 10px/22px 'Open Sans', sans-serif;
     text-transform: uppercase;
     display: none;
-    color: #f26c4f;
+    color: #040404;
     position: absolute;
     margin: -11px 0 0px 7px;
     padding: 0px 8px 0 10px;
