@@ -460,6 +460,10 @@ a:hover{
     color: #7c7c7c;
     font-size: 2rem;
 }
+.fn-item-content img {
+    box-shadow: -7px -8px 20px 2px #bdbdbd6b;
+    border-radius: 5px;
+}
 .about-me-description p{
     color: #7c7c7c;
     font-size: 0.895645455rem;
